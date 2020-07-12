@@ -1,0 +1,19 @@
+{
+  "name": "dsbaars-typescript-base",
+  "version": "1.0.0",
+  "description": "dsbaars Base Project for TypeScript development",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": "https://github.com/dsbaars/typescript-base-project",
+  "author": "Djuri Baars <dsbaars@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.11",
+    "jasmine": "^3.5.0",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  }
+}
